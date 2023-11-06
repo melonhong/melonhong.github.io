@@ -37,6 +37,10 @@ body {
   font-family: $font-family-base;
 }
 
+hr {
+  margin: 2rem 0;
+}
+
 /* --- Typography --- */
 
 @for $i from 1 through 5 {
@@ -613,10 +617,11 @@ main {
   text-align: left;
 }
 
-/* Overwrite bootstrap outline button */
+/* Overwrite bootstrap outline button 색깔 고침 */
 .btn.btn-outline-primary {
   &:not(.disabled):hover {
-    border-color: #007bff !important;
+    border-color: var(--link-color) !important;
+    background-color: var(--link-color) !important; /*원래 없던거*/
   }
 }
 
@@ -715,7 +720,7 @@ $btn-mb: 0.5rem;
     width: 7rem;
     height: 7rem;
     overflow: hidden;
-    box-shadow: var(--avatar-border-color) 0 0 0 2px;
+    box-shadow: var(--avatar-border-color) 0 0 0 4px;
     transform: translateZ(0); /* fixed the zoom in Safari */
 
     img {
@@ -1436,7 +1441,7 @@ search {
 
 @media all and (min-width: 1200px) {
   search {
-    margin-right: 4rem;
+    margin-right: 3rem;
   }
 
   #search-input {

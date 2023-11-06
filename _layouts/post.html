@@ -126,6 +126,7 @@ tail_includes:
           {{ site.data.locales[lang].copyright.license.template | replace: ':LICENSE_NAME', _replacement }}
         {% endif %}
       </div>
+      
 
       {% include post-sharing.html lang=lang %}
     </div>
@@ -133,3 +134,10 @@ tail_includes:
   </div>
   <!-- div.post-tail-wrapper -->
 </article>
+<script src="https://utteranc.es/client.js"
+        repo="melonhong/melonhong.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
