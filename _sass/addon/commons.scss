@@ -138,7 +138,7 @@ kbd {
 footer {
   background-color: var(--main-bg);
   height: $footer-height;
-  border-top: 1px solid var(--main-border-color);
+  border-top: 0.5px solid var(--main-border-color);
 
   @extend %text-xs;
 
@@ -720,14 +720,14 @@ $btn-mb: 0.5rem;
     width: 7rem;
     height: 7rem;
     overflow: hidden;
-    box-shadow: var(--avatar-border-color) 0 0 0 4px;
+    box-shadow: var(--avatar-border-color) 0 0 0 3px;
     transform: translateZ(0); /* fixed the zoom in Safari */
 
     img {
       transition: transform 0.5s;
 
       &:hover {
-        transform: scale(1.2);
+        transform: scale(1.5);
       }
     }
   }
@@ -1133,7 +1133,7 @@ search {
 
 #tail-wrapper {
   > :not(script) {
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
 }
 
