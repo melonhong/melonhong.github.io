@@ -13,19 +13,19 @@ tabs:
   home: 홈
   categories: 카테고리
   tags: 태그
-  archives: 아카이브
+  archives: 타임라인
   about: 정보
 
 # the text displayed in the search bar & search results
 search:
   hint: 검색
   cancel: 취소
-  no_results: 검색 결과가 없습니다.
+  no_results: 찾아봐도 없는디...
 
 panel:
-  lastmod: 최근 업데이트
+  lastmod: 최근 추가한 글
   trending_tags: 인기 태그
-  toc: 바로가기
+  toc: 목차
 
 copyright:
   # Shown at the bottom of the post
@@ -46,21 +46,21 @@ not_found:
   statment: 해당 URL은 존재하지 않습니다.
 
 notification:
-  update_found: 새 버전의 콘텐츠를 사용할 수 있습니다.
+  update_found: 새 버전의 콘텐츠를 사용할 수 있습니다!
   update: 업데이트
 
 # ----- Posts related labels -----
 
 post:
-  written_by: By
-  posted: 게시
+  written_by: 작성자
+  posted: 게시 날짜
   updated: 업데이트
   words: 단어
   pageview_measure: 조회
   read_time:
     unit: 분
-    prompt: 읽는 시간
-  relate_posts: 관련된 글
+    prompt: 이면 읽는다!
+  relate_posts: 다른 글도 볼래요?
   share: 공유하기
   button:
     next: 다음 글
@@ -80,5 +80,5 @@ df:
 
 # categories page
 categories:
-  category_measure: 카테고리
-  post_measure: 포스트
+  category_measure: 개의 카테고리
+  post_measure: 장의 글

@@ -59,6 +59,14 @@ hr {
         $factor: 0.23rem;
       }
 
+      @if $i == 2 { /*h2는 굵게*/
+        font-weight: bold;
+      }
+
+      @if $i == 3 { /*h3끼리 떨어지게 만듦*/
+        padding-top: 1.5rem;
+      }
+
       font-size: 1rem + (5 - $i) * $factor;
     } @else {
       font-size: 1rem;
