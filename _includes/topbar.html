@@ -20,13 +20,22 @@
                 {{ site.data.locales[include.lang].tabs.home | capitalize }}
               </a>
             </span>
-
+            
+         
           {% elsif forloop.last %}
             {% if page.collection == 'tabs' %}
               <span>{{ site.data.locales[include.lang].tabs[item] | default: page.title }}</span>
             {% else %}
               <span>{{ page.title }}</span>
             {% endif %}
+
+          {% elsif page.layout == 'post' %}
+            <span>
+            {% for category in page.categories %}
+              <a href="{{ site.baseurl }}/categories/{{ category | slugify | url_encode }}/">{{ category }}</a>
+              {%- unless forloop.last -%},{%- endunless -%}
+            {% endfor %}
+            </span>
 
           {% elsif page.layout == 'category' or page.layout == 'tag' %}
             <span>

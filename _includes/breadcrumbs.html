@@ -1,0 +1,16 @@
+<div id="breadcrumbs">
+  {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+  {% for crumb in crumbs offset: 1 %}
+    <span>카테고리</span>
+    {% if forloop.last %}
+      <span> / {{ page.title }} </span>
+    {% else %}
+      {% for category in page.categories %}
+      <span>
+      <a href="{{ site.baseurl }}/categories/{{ category | slugify | url_encode }}/">{{ site.data.locales[include.lang].tabs[item] | default: category }}</a>
+      </span>
+      {%- unless forloop.last -%},{%- endunless -%}
+    {% endfor %}
+    {% endif %}
+  {% endfor %}
+</div>
