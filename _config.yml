@@ -77,7 +77,7 @@ theme_mode: # [light|dark]
 img_cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "https://i.namu.wiki/i/-EoBNp-76EBRBPIAv1Q1JvEWDtOMOPE2xLHhIMBDhQkE964rwY-YQr7vpO7gnlP64O5KfiUOgWt6r9Hpgh4tww.gif"
+avatar: "https://i.namu.wiki/i/Rjs9XG4sVKlyFsMQzVrJXArF8cxywzJTM76aUkXmobhXSlx4B7Q3ej_2ujdxlsXleivUI8Y9swNsBd3qrJ_neA.webp"
 # boolean type, the global switch for TOC in posts.
 toc: true
 

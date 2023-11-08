@@ -54,9 +54,9 @@
   white-space: nowrap;
 }
 
-%link-hover {
-  color: #d2603a !important;
-  border-bottom: 1px solid #d2603a;
+%link-hover { /*링크 호버했을 때 색*/
+  color: var(--link-hover) !important;
+  border-bottom: 0px solid var(--link-hover);
   text-decoration: none;
 }
 
