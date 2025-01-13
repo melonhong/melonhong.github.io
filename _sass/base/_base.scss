@@ -407,6 +407,7 @@ mjx-container {
 }
 
 #main-wrapper {
+  @include mx.slide;
   position: relative;
 
   @include mx.pl-pr(0);
