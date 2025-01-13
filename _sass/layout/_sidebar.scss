@@ -260,6 +260,9 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
   }
 
   #sidebar {
+    @include bp.lt(bp.get(lg)) {
+      transform: translateX(0);
+    }
     transform: translateX(-#{v.$sidebar-width});
   }
 }
