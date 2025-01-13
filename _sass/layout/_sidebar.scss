@@ -249,10 +249,17 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
   } /* .sidebar-bottom */
 } /* #sidebar */
 
+/* Add sidebar toggle */
 [#{$sidebar-display}] {
   #main-wrapper {
     @include bp.lt(bp.get(lg)) {
       transform: translateX(v.$sidebar-width);
     }
+
+    transform: translateX(-#{v.$sidebar-width});
+  }
+
+  #sidebar {
+    transform: translateX(-#{v.$sidebar-width});
   }
 }
