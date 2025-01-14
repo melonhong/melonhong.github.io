@@ -164,6 +164,7 @@ header {
     }
 
     &:hover {
+      background-color: var(--button-hover-bg);
       &:not(.disabled)::before {
         color: whitesmoke;
       }
