@@ -258,13 +258,13 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
 
 [#{$sidebar-display}] {
   #main-wrapper {
-    @include bp.lt(bp.get(lg)) {
-      transform: translateX(v.$sidebar-width);
-    }
-
-    & {
+    @include bp.lt(bp.get(xxxl)) {
       transform: translateX(-#{v.$sidebar-width});
       width: 100%;
+    }
+
+    @include bp.lt(bp.get(lg)) {
+      transform: translateX(v.$sidebar-width);
     }
 
     .px-xxl-5 {
