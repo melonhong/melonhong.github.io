@@ -262,8 +262,10 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
       transform: translateX(v.$sidebar-width);
     }
 
-    transform: translateX(-#{v.$sidebar-width});
-    width: 100%;
+    & {
+      transform: translateX(-#{v.$sidebar-width});
+      width: 100%;
+    }
 
     .px-xxl-5 {
       padding: 0 !important;
