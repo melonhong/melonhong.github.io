@@ -33,6 +33,7 @@
     rgba(232, 230, 230, 1) 50%,
     rgba(250, 250, 250, 0) 100%
   );
+  --selection-bg-color: #ff6b6b;
 
   /* Sidebar */
   --site-title-color: #a67c52;
@@ -60,7 +61,7 @@
   --btn-paginator-hover-color: var(--sidebar-bg);
 
   /* Posts */
-  --toc-highlight: #a67c52;
+  --toc-highlight: #ff6b6b;
   --toc-popup-border-color: lightgray;
   --btn-share-color: gray;
   --btn-share-hover-color: #a67c52;
@@ -98,7 +99,7 @@
 
   /* Archive */
   --timeline-color: rgba(0, 0, 0, 0.075);
-  --timeline-node-bg: #c2c6cc;
+  --timeline-node-bg: #a67c52;
   --timeline-year-dot-color: #ffffff;
 
   /* --- Custom code light mode colors --- */

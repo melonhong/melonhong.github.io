@@ -476,3 +476,13 @@ mjx-container {
     margin-top: 3rem;
   }
 }
+
+::selection {
+  background-color: var(--selection-bg-color);
+  color: white;
+}
+
+::-moz-selection {
+  background-color: var(--selection-bg-color);
+  color: white;
+}
