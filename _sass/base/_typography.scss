@@ -184,6 +184,14 @@ main {
       }
     }
   }
+
+  /* Add bottom line to main content h1 and h2*/
+  .content > h1,
+  h2 {
+    margin: 2rem 0;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid #d1d9e0b3;
+  }
 }
 
 .footnotes > ol {
