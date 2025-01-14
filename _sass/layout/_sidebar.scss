@@ -259,16 +259,21 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
 [#{$sidebar-display}] {
   #main-wrapper {
     @include bp.lt(bp.get(xxxl)) {
-      transform: translateX(-#{v.$sidebar-width});
-      width: 100%;
+      margin-left: 0;
+      transition: margin 0.4s ease;
     }
 
     @include bp.lt(bp.get(lg)) {
+      @include mx.slide;
       transform: translateX(v.$sidebar-width);
     }
 
-    .px-xxl-5 {
-      padding: 0 !important;
+    .px-md-4 {
+      width: 100%;
+    }
+
+    #panel-wrapper {
+      display: none;
     }
   }
 }

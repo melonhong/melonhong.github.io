@@ -407,7 +407,6 @@ mjx-container {
 }
 
 #main-wrapper {
-  @include mx.slide;
   position: relative;
 
   @include mx.pl-pr(0);
@@ -417,10 +416,12 @@ mjx-container {
   }
 
   @include bp.lg {
+    transition: margin 0.4s ease;
     margin-left: v.$sidebar-width;
   }
 
   @include bp.xxxl {
+    transition: margin 0.4s ease;
     margin-left: v.$sidebar-width-large;
   }
 
