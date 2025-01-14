@@ -12,13 +12,13 @@
   --label-color: #585858;
   --blockquote-border-color: #eeeeee;
   --blockquote-text-color: #757575;
-  --link-color: #a67c52;
+  --link-color: #de950f;
   --link-hover-color: #ff6b6b;
   --link-underline-color: #dee2e6;
   --button-bg: #ffffff;
-  --button-hover-bg: #a67c52;
+  --button-hover-bg: #de950f;
   --btn-border-color: #e9ecef;
-  --btn-backtotop-color: #686868;
+  --btn-backtotop-color: #a67c52;
   --btn-backtotop-border-color: #f1f1f1;
   --checkbox-color: #c5c5c5;
   --checkbox-checked-color: #07a8f7;
@@ -33,7 +33,7 @@
     rgba(232, 230, 230, 1) 50%,
     rgba(250, 250, 250, 0) 100%
   );
-  --selection-bg-color: #ff6b6b;
+  --selection-bg-color: #de950f;
 
   /* Sidebar */
   --site-title-color: #a67c52;
@@ -61,7 +61,7 @@
   --btn-paginator-hover-color: var(--sidebar-bg);
 
   /* Posts */
-  --toc-highlight: #ff6b6b;
+  --toc-highlight: #de950f;
   --toc-popup-border-color: lightgray;
   --btn-share-color: gray;
   --btn-share-hover-color: #a67c52;
