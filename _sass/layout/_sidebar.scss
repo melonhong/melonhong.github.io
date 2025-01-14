@@ -263,5 +263,6 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     }
 
     transform: translateX(-#{v.$sidebar-width});
+    width: 100%;
   }
 }
