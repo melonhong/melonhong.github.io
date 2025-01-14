@@ -45,7 +45,7 @@ social:
     # - https://www.linkedin.com/in/username
 
 # Notice
-notice: "📢 이것은 공지사항입니다. 중요한 내용이지만 광고판처럼 옆으로 지나가게 됩니다."
+notice: "📢 다양한 프로그래밍 주제를 다룰 블로그가 시작되었습니다. 기대해 주세요!"
 
 # Site Verification Settings
 webmaster_verifications:
@@ -98,10 +98,10 @@ theme_mode: # [light | dark]
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-cdn: ""
+cdn: "/assets/img"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/assets/img/src/avatar.jpg"
+avatar: "/src/avatar.jpg"
 # https://i.pinimg.com/736x/8a/ac/0d/8aac0d13a68269655eccab58f0951f0d.jpg
 # "https://avatars.githubusercontent.com/u/128899212?s=400&u=05330ad724511c274ade4947839dcfc804766886&v=4"
 
