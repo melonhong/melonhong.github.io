@@ -44,6 +44,7 @@ body {
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
   font-family: v.$font-family-base;
+  cursor: url(../../assets/img/src/foo429.cur), auto !important;
 }
 
 h1.dynamic-title {
