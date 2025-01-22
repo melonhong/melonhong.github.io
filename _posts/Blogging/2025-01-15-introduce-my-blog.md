@@ -4,7 +4,7 @@ description: >-
   블로그를 시작한 계기와 전반적인 내용을 소개합니다
 author: melonhong
 date: 2025-01-15 00:34:00 +0800
-categories: [튜토리얼]
+categories: [블로그]
 tags: [getting started]
 pin: true
 image:
