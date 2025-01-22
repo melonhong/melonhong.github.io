@@ -20,6 +20,9 @@
         main & {
           @if $i == 2 {
             margin: 2.5rem 0 1.25rem;
+          } @else if $i == 3 {
+            margin: 2.5rem 0 1rem;
+            font-weight: bold;
           } @else {
             margin: 2rem 0 1rem;
           }
