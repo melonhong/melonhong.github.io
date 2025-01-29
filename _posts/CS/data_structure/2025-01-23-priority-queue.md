@@ -2,7 +2,7 @@
 layout: post
 title: 우선순위 큐와 힙
 date: '2025-01-23 02:03:17 +0900'
-category: [자료구조]
+category: [CS, 자료구조]
 math: true
 ---
 ## 우선순위 큐(priority queue)
