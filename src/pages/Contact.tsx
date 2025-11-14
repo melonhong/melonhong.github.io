@@ -14,20 +14,7 @@ export default function Contact() {
       <Section title="연락하기" subtitle="Contact">
         <Container>
           <div className="max-w-4xl mx-auto">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-              {/* 연락 폼 */}
-              <motion.div
-                initial={{ opacity: 0, x: -30 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true, margin: '-100px' }}
-                transition={{ duration: 0.6 }}
-              >
-                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
-                  메시지 보내기
-                </h2>
-                <ContactForm />
-              </motion.div>
-
+            <div className="flex flex-col gap-12">
               {/* 소셜 링크 및 정보 */}
               <motion.div
                 initial={{ opacity: 0, x: 30 }}
@@ -37,10 +24,7 @@ export default function Contact() {
                 className="space-y-8"
               >
                 <div>
-                  <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
-                    다른 방법으로 연락하기
-                  </h2>
-                  <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
+                  <p className="text-center text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
                     프로젝트나 협업에 관심이 있으시다면 언제든지 연락주세요.
                     빠르게 답변 드리겠습니다.
                   </p>
@@ -138,4 +122,3 @@ export default function Contact() {
     </div>
   );
 }
-
