@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import Section from '../components/common/Section';
 import Container from '../components/common/Container';
-import ContactForm from '../components/ui/ContactForm';
 import { SOCIAL_LINKS } from '../utils/constants';
 
 /**
