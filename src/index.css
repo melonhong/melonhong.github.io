@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300;
+  }
+}
+
+@layer components {
+  .bg-light-card {
+    @apply bg-white;
+  }
+  .dark .bg-dark-card {
+    background-color: #1e1b4b;
+  }
+  .text-light-heading {
+    @apply text-[#1e1b4b];
+  }
+  .dark .text-dark-heading {
+    color: #f3f4f6;
+  }
+  .text-light-text {
+    color: #4b5563;
+  }
+  .dark .text-dark-text {
+    color: #e9d5ff;
+  }
+  .bg-light-primary {
+    background-color: #faf5ff;
+  }
+  .dark .bg-dark-primary {
+    background-color: #160d35;
+  }
+  .text-light-primary {
+    color: #7c3aed;
+  }
+  .dark .text-dark-primary {
+    color: #d8b4fe;
+  }
+}
+
